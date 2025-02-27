@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  frontendnew:
+    image: cphat/234-deploylab-frontend:2.0
+    pull_policy: always
+    ports:
+      - "9999:80"
